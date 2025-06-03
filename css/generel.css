@@ -7,15 +7,22 @@
 
 main {
   margin: 10%;
-  .btnText {
-    position: relative;
-    bottom: 55px;
-    left: 50px;
-    a {
-      text-decoration: none;
-      color: white;
-    }
+}
+
+/* button */
+.btnText {
+  position: relative;
+  bottom: 55px;
+  left: 50px;
+  a {
+    text-decoration: none;
+    color: white;
   }
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
 }
 
 /* footer */
