@@ -1,3 +1,7 @@
+:root {
+  background-image: url(../img/bg1.png);
+}
+
 /* fonts */
 h1 {
   font-family: paytoneOne;
