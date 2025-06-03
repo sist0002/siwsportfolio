@@ -8,7 +8,8 @@
   background-color: #123e9c;
 }
 
-#aboutMe {
+#aboutMe,
+#signeimg {
   position: relative;
   bottom: 200px;
 }
@@ -32,4 +33,55 @@
   width: 50%;
   position: relative;
   bottom: 150px;
+}
+
+@media (width>800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 4em;
+  }
+  #btnAboutMe {
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media (width>1200px) {
+  .h1_graphic,
+  h1 {
+    width: 50%;
+  }
+  #planet {
+    width: 40%;
+    margin: auto;
+    bottom: 300px;
+  }
+  #btn1 {
+    margin-left: 80%;
+  }
+  #btn2 {
+    margin-left: 75%;
+  }
+  #btn3 {
+    margin-left: 70%;
+  }
+  #btn4 {
+    margin-left: 65%;
+  }
+  #btngroup {
+    position: relative;
+    bottom: 700px;
+  }
+  main {
+    margin: 5%;
+  }
+  #aboutMe,
+  #signeimg {
+    position: relative;
+    bottom: 500px;
+  }
+  #btnAboutMe {
+    bottom: 450px;
+  }
 }
