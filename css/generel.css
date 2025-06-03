@@ -27,7 +27,7 @@ footer {
 .footerflex {
   display: flex;
   justify-content: space-between;
-  margin: 10%;
+  margin: 5%;
 }
 
 /* fonts */
