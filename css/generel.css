@@ -1,8 +1,11 @@
 :root {
   background-image: url(../img/bg1.png);
+  /* img {
+    width: 100%;
+  } */
 }
 
-body {
+main {
   margin: 10%;
   .btnText {
     position: relative;
@@ -13,6 +16,18 @@ body {
       color: white;
     }
   }
+}
+
+/* footer */
+footer {
+  hr {
+    color: white;
+  }
+}
+.footerflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
 }
 
 /* fonts */
@@ -30,9 +45,21 @@ h1 {
   }
 }
 
-p {
+h2 {
+  font-family: paytoneOne;
+  color: white;
+  font-size: 50px;
+}
+
+h3 {
   font-family: zenDots;
   font-size: 15px;
+  color: white;
+}
+
+p {
+  font-family: josefinSans;
+  font-size: 18px;
   color: white;
 }
 
