@@ -1,0 +1,23 @@
+/* fonts */
+h1 {
+  font-family: paytoneOne;
+  color: none;
+  -webkit-text-stroke: 1px white;
+}
+h1:first-child {
+  font-family: paytoneOne;
+  color: white;
+}
+
+@font-face {
+  font-family: josefinSans;
+  src: url(../fonts/JosefinSans-Light.ttf);
+}
+@font-face {
+  font-family: paytoneOne;
+  src: url(../fonts/PaytoneOne-Regular.ttf);
+}
+@font-face {
+  font-family: zenDots;
+  src: url(../fonts/ZenDots-Regular.ttf);
+}
