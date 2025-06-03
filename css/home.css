@@ -1,0 +1,22 @@
+#planet {
+  position: relative;
+  bottom: 200px;
+}
+
+/* botton positioning */
+#btn1 {
+  margin-left: 60%;
+}
+#btn2 {
+  margin-left: 40%;
+}
+#btn3 {
+  margin-left: 20%;
+}
+#btn4 {
+  right: 70%;
+}
+#btngroup {
+  position: relative;
+  bottom: 250px;
+}

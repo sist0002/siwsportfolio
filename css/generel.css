@@ -2,14 +2,38 @@
   background-image: url(../img/bg1.png);
 }
 
+body {
+  margin: 10%;
+  .btnText {
+    position: relative;
+    bottom: 55px;
+    left: 50px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
 /* fonts */
 
 h1 {
   font-family: paytoneOne;
   color: white;
-  /* font-size: 100%; */
-  /* font-size: 100px; */
-  /* font-size: 3.5vw; */
+  margin: 0%;
+  padding: 0%;
+}
+
+.h1_graphic {
+  svg {
+    margin-top: 2%;
+  }
+}
+
+p {
+  font-family: zenDots;
+  font-size: 15px;
+  color: white;
 }
 
 @font-face {
