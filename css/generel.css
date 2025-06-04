@@ -1,15 +1,154 @@
 :root {
   background-image: url(../img/bg1.png);
+  /* img {
+    width: 100%;
+  } */
+}
+
+main {
+  margin: 10%;
+}
+
+/* animation */
+.container {
+  display: inline-block;
+  line-height: 2em;
+}
+
+.textanimation1 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing1;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+.textanimation2 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing2;
+  animation-duration: 1s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+.textanimation3 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing3;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+}
+
+.textanimation4 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing4;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+@keyframes typing1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* button */
+.btnText {
+  position: relative;
+  bottom: 55px;
+  left: 50px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+/* footer */
+footer {
+  hr {
+    color: white;
+  }
+}
+.footerflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
 }
 
 /* fonts */
+
 h1 {
   font-family: paytoneOne;
-  color: none;
-  -webkit-text-stroke: 1px white;
+  color: white;
+  margin: 0%;
+  padding: 0%;
 }
-h1:first-child {
+
+.h1_graphic {
+  svg {
+    margin-top: 2%;
+  }
+}
+
+h2 {
   font-family: paytoneOne;
+  color: white;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: zenDots;
+  font-size: 15px;
+  color: white;
+}
+
+p {
+  font-family: josefinSans;
+  font-size: 18px;
   color: white;
 }
 
