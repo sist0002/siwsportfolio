@@ -5,6 +5,12 @@
   } */
 }
 
+.erfaringBox {
+  border: 1px solid white;
+  padding: 1.5em;
+  background-color: #123e9c;
+}
+
 main {
   margin: 10%;
 }
@@ -116,7 +122,7 @@ footer {
 .footerflex {
   display: flex;
   justify-content: space-between;
-  margin: 5%;
+  margin: 2%;
 }
 
 /* fonts */
