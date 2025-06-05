@@ -76,4 +76,17 @@ main {
     position: relative;
     bottom: 25vh;
   }
+  .omlanding_text {
+    margin: 2% 20% 0 20%;
+  }
+  .omlanding_img {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  .omlanding_img,
+  .omlanding_text {
+    position: relative;
+    bottom: 40vh;
+  }
 }

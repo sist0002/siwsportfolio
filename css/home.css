@@ -2,11 +2,6 @@
   position: relative;
   bottom: 200px;
 }
-.erfaringBox {
-  border: 1px solid white;
-  padding: 1.5em;
-  background-color: #123e9c;
-}
 
 #aboutMe,
 #signeimg {
