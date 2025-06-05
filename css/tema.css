@@ -74,6 +74,6 @@ main {
   .animationtema_text,
   .animationbtn {
     position: relative;
-    bottom: 20vh;
+    bottom: 25vh;
   }
 }
