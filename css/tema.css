@@ -24,6 +24,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10em;
+    row-gap: 10em;
     margin: 0 10em 0 10em;
   }
   .new_text {
@@ -56,5 +57,18 @@ main {
   .landing_text {
     position: relative;
     bottom: 30vh;
+  }
+  .animationlanding_text {
+    margin: 2% 20% 0 20%;
+  }
+  .animationlanding_img {
+    width: 75%;
+    margin: auto;
+    display: block;
+  }
+  .animationlanding_img,
+  .animationlanding_text {
+    position: relative;
+    bottom: 20vh;
   }
 }
