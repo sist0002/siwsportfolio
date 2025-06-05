@@ -39,7 +39,8 @@ main {
   main {
     margin: 5%;
   }
-  .tema_text {
+  .tema_text,
+  .animationtema_text {
     margin: 10% 35% 5% 35%;
   }
   .btn {
@@ -69,7 +70,9 @@ main {
     display: block;
   }
   .animationlanding_img,
-  .animationlanding_text {
+  .animationlanding_text,
+  .animationtema_text,
+  .animationbtn {
     position: relative;
     bottom: 20vh;
   }
