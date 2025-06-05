@@ -40,7 +40,7 @@ main {
     margin: 5%;
   }
   .tema_text {
-    margin: 0 35% 5% 35%;
+    margin: 10% 35% 5% 35%;
   }
   .btn {
     margin: 0 40% 0 40%;
@@ -54,7 +54,9 @@ main {
     margin: 2% 20% 0 20%;
   }
   .landing_img,
-  .landing_text {
+  .landing_text,
+  .tema_text,
+  .btn {
     position: relative;
     bottom: 30vh;
   }
