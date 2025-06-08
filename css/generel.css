@@ -4,11 +4,17 @@
     width: 100%;
   } */
 }
-
+.erfaringHolder {
+  border: 1px solid white;
+  margin-bottom: 2em;
+}
 .erfaringBox {
   border: 1px solid white;
   padding: 1.5em;
   background-color: #123e9c;
+}
+.erfaringText {
+  text-align: center;
 }
 
 main {
