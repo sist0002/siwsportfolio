@@ -130,6 +130,13 @@ main img {
   transform: scale(1.1);
   transition-duration: 1s;
 }
+.nextbtn {
+  margin: 5% 40% 0 45%;
+}
+.nextbtn:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
 
 /* header / burger menu */
 
