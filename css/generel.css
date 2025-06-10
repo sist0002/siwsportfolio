@@ -3,6 +3,9 @@
   /* img {
     width: 100%;
   } */
+  hr {
+    width: 100%;
+  }
 }
 .erfaringHolder {
   border: 1px solid white;
