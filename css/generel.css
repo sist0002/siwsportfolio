@@ -224,10 +224,8 @@ nav {
 }
 
 /* footer */
-footer {
-  hr {
-    color: white;
-  }
+.footerline {
+  border: 1px solid white;
 }
 .footerflex {
   display: flex;
