@@ -1,8 +1,5 @@
 :root {
   background-image: url(../img/bg1.webp);
-  hr {
-    width: 100%;
-  }
 }
 .erfaringHolder {
   border: 1px solid white;
