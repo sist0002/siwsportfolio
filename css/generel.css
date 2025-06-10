@@ -258,7 +258,8 @@ h2,
   font-size: 50px;
 }
 
-h3 {
+h3,
+.zenDots {
   font-family: zenDots;
   font-size: 15px;
   color: white;
