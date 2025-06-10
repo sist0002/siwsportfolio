@@ -1,8 +1,5 @@
 :root {
   background-image: url(../img/bg1.webp);
-  /* img {
-    width: 100%;
-  } */
   hr {
     width: 100%;
   }
@@ -22,6 +19,9 @@
 
 main {
   margin: 0 10% 2% 10%;
+  img {
+    width: 100%;
+  }
 }
 
 /* animation */
