@@ -1,3 +1,4 @@
+/* layout */
 main img {
   width: 100%;
 }
@@ -17,6 +18,7 @@ main img {
   margin: 0 2em 0em 2em;
 }
 
+/* media queries */
 @media (width>1000px) {
   .grid_1-1 {
     display: grid;

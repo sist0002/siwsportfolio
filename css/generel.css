@@ -1,6 +1,15 @@
+/* generel */
 :root {
   background-image: url(../img/bg1.webp);
 }
+main {
+  margin: 0 10% 2% 10%;
+}
+main img {
+  width: 100%;
+}
+
+/* erfaring */
 .erfaringHolder {
   border: 1px solid white;
   margin-bottom: 2em;
@@ -12,13 +21,6 @@
 }
 .erfaringText {
   text-align: center;
-}
-
-main {
-  margin: 0 10% 2% 10%;
-}
-main img {
-  width: 100%;
 }
 
 /* procesboks */
@@ -48,7 +50,6 @@ main img {
   white-space: nowrap;
   width: 0;
   animation: typing1 7.5s infinite;
-  /* animation-duration: 1.5s; */
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
 }
@@ -58,10 +59,8 @@ main img {
   white-space: nowrap;
   width: 0;
   animation: typing2 7.5s infinite;
-  /* animation-duration: 1s; */
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
-  /* animation-delay: 1.5s; */
 }
 
 .textanimation3 {
@@ -69,10 +68,8 @@ main img {
   white-space: nowrap;
   width: 0;
   animation: typing3 7.5s infinite;
-  /* animation-duration: 1.5s; */
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
-  /* animation-delay: 2.5s; */
 }
 
 .textanimation4 {
@@ -80,10 +77,8 @@ main img {
   white-space: nowrap;
   width: 0;
   animation: typing4 7.5s infinite;
-  /* animation-duration: 1.5s; */
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
-  /* animation-delay: 4s; */
 }
 
 @keyframes typing1 {
@@ -162,7 +157,6 @@ main img {
 }
 
 /* header / burger menu */
-
 .menu {
   position: sticky;
   top: 0;
@@ -204,7 +198,6 @@ main img {
 nav {
   padding: 1rem;
   display: flex;
-  /* background-color: #123e9c; */
 }
 
 .ham-menu {
@@ -262,7 +255,6 @@ nav {
 }
 
 /* fonts */
-
 h1 {
   font-family: paytoneOne;
   color: white;

@@ -1,3 +1,4 @@
+/* positioning */
 #planet {
   position: relative;
   bottom: 200px;
@@ -9,7 +10,7 @@
   bottom: 200px;
 }
 
-/* botton positioning */
+/* button positioning */
 #btn1 {
   margin-left: 60%;
 }
@@ -30,6 +31,7 @@
   bottom: 150px;
 }
 
+/* media queries */
 @media (width>800px) {
   .grid_1-1 {
     display: grid;
