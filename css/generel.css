@@ -20,19 +20,23 @@ main {
 main img {
   width: 100%;
 }
-.procesflex {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 5em;
-  margin: 0 10% 5em 10%;
-  border: 1px solid white;
-  padding: 1.5em;
-  padding-top: 2em;
-}
 
+/* procesboks */
+.procesflex {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
 .procestext {
   text-align: center;
 }
+.figmabtn {
+  width: 45px;
+}
+.gitbtn {
+  width: 70px;
+}
+
 /* animation */
 .container {
   display: inline-block;
