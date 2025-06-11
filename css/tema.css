@@ -90,13 +90,4 @@ main img {
     position: relative;
     bottom: 40vh;
   }
-  .procesflex {
-    display: grid;
-    grid-template-columns: 1fr 2.5fr 1fr;
-    gap: 5em;
-    margin: 0 10em 5em 10em;
-    border: 1px solid white;
-    padding: 1.5em;
-    padding-top: 2em;
-  }
 }
