@@ -2,30 +2,48 @@
 main img {
   width: 100%;
 }
+main {
+  max-width: 500px;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 .landing_text {
   margin-bottom: 5em;
 }
 .tema_text {
-  margin-bottom: 3em;
+  margin-bottom: 5%;
 }
 .new_text {
   margin-bottom: 6em;
+  margin-top: 5em;
   border: 1px solid white;
   padding: 1em;
 }
 .grid_1-1 {
   margin: 0 2em 0em 2em;
 }
+.landing_grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10vh 40vh;
+}
+.btn {
+  margin: auto;
+  width: 50%;
+}
 
 /* media queries */
-@media (width>1000px) {
+@media (width>1200px) {
+  main {
+    max-width: 100%;
+  }
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10em;
     row-gap: 10em;
-    margin: 0 10em 0 10em;
   }
   .proces {
     margin-bottom: 15em;
@@ -35,61 +53,37 @@ main img {
     margin-top: 2em;
     padding: 2em;
   }
-  .h1_graphic,
-  h1 {
-    width: 50%;
-  }
   main {
     margin: 0 5% 2% 5%;
   }
-  .tema_text,
-  .animationtema_text {
-    margin: 10% 35% 5% 35%;
+  .tema_text {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 2%;
   }
   .btn {
     margin: 0 40% 0 40%;
   }
-  .landing_img {
-    width: 75%;
-    margin: auto;
-    display: block;
-  }
-  .landing_text {
-    margin: 2% 20% 0 20%;
-  }
-  .landing_img,
-  .landing_text,
-  .tema_text,
-  .btn {
-    position: relative;
-    bottom: 30vh;
-  }
-  .animationlanding_text {
-    margin: 2% 20% 0 20%;
-  }
-  .animationlanding_img {
-    width: 75%;
-    margin: auto;
-    display: block;
-  }
-  .animationlanding_img,
-  .animationlanding_text,
-  .animationtema_text,
-  .animationbtn {
-    position: relative;
-    bottom: 25vh;
-  }
-  .omlanding_text {
-    margin: 2% 20% 0 20%;
-  }
-  .omlanding_img {
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-  .omlanding_img,
-  .omlanding_text {
-    position: relative;
-    bottom: 40vh;
+  .landing_grid {
+    display: grid;
+    grid-template-columns: 800px auto;
+    grid-template-rows: 15vh 60vh 15vh;
+    .temaH1 {
+      grid-column: 1 / 2;
+      grid-row: 1 / 4;
+    }
+    .landing_img {
+      max-width: 1000px;
+      margin: auto;
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+    }
+    .signeimg {
+      max-width: 800px;
+      margin: auto;
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+    }
   }
 }

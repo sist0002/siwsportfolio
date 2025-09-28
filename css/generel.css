@@ -4,6 +4,10 @@
 }
 main {
   margin: 0 10% 2% 10%;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 main img {
   width: 100%;
