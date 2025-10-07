@@ -1,7 +1,7 @@
 /* generel */
-:root {
+/* :root {
   background-image: url(../img/bg1.webp);
-}
+} */
 main {
   margin: 0 10% 2% 10%;
   a {
@@ -11,6 +11,16 @@ main {
 }
 main img {
   width: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  margin: 0 auto; /* centrerer body så man på meget brede skærme vil se sorte margins på hver side af body */
+  max-width: 1680px; /* begrænser body-størrelsen til vores største billedes bredde */
+  background-image: url(../img/bg1.webp);
+}
+html {
+  background-color: #ffffff;
 }
 
 /* erfaring */
@@ -256,6 +266,7 @@ nav {
   justify-content: center;
   gap: 1em;
   margin: 2%;
+  margin-bottom: 0;
 }
 
 /* fonts */
