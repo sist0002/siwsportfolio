@@ -1,7 +1,4 @@
 /* generel */
-/* :root {
-  background-image: url(../img/bg1.webp);
-} */
 main {
   margin: 0 10% 2% 10%;
   a {
@@ -267,6 +264,7 @@ nav {
   gap: 1em;
   margin: 2%;
   margin-bottom: 0;
+  padding: 20px;
 }
 
 /* fonts */

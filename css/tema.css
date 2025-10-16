@@ -27,7 +27,7 @@ main {
 .landing_grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 10vh 40vh;
+  /* grid-template-rows: 10% 40%; */
 }
 .btn {
   margin: auto;
@@ -68,7 +68,8 @@ main {
   .landing_grid {
     display: grid;
     grid-template-columns: 800px auto;
-    grid-template-rows: 15vh 60vh 15vh;
+    grid-template-rows: 150px 600px 150px;
+    margin-bottom: 100px;
     .temaH1 {
       grid-column: 1 / 2;
       grid-row: 1 / 4;
