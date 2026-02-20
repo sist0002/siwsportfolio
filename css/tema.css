@@ -15,6 +15,9 @@ main {
 .tema_text {
   margin-bottom: 5%;
 }
+.temaH1_toki {
+  max-width: 500px;
+}
 .new_text {
   margin-bottom: 6em;
   margin-top: 5em;
@@ -39,6 +42,7 @@ main {
 }
 .websites_link:hover {
   transform: scale(1.05);
+  transition: 0.5s ease-out;
 }
 .art_grid {
   display: grid;
